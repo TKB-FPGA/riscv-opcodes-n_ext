@@ -138,6 +138,14 @@ latex_inst_type['U-type'] = {}
 latex_inst_type['U-type']['variable_fields'] = ['opcode', 'rd', 'imm20']
 latex_inst_type['J-type'] = {}
 latex_inst_type['J-type']['variable_fields'] = ['opcode', 'rd', 'jimm20']
+# EDITED BY NISHIMURA START
+latex_inst_type['NS-type'] = {}
+latex_inst_type['NS-type']['variable_fields'] = ['opcode', 'funct3', \
+        'rs1', 'rs2', 'funct7']
+latex_inst_type['NR-type'] = {}
+latex_inst_type['NR-type']['variable_fields'] = ['opcode', 'funct3', \
+        'rd', 'funct7']
+# EDITED BY NISHIMURA END
 latex_fixed_fields = []
 latex_fixed_fields.append((31,25))
 latex_fixed_fields.append((24,20))
